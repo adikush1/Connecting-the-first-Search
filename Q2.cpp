@@ -14,7 +14,7 @@ int main(){
             cin>>ad_mat[i][j];
         }
 
-    }
+    }//taking adjacency matrix as input
     queue <int> q;
 
     int covered[n]={0};
