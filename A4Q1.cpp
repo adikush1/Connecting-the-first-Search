@@ -7,7 +7,7 @@ struct edge
 };
 vector<edge> edges;
 void bellman(int s){
-    vector<long long > dist;
+    vector<long long > dist(s);
     vector<long long>par;
     for (int o=0;o<s;o++){
         dist.push_back(MAX);
